@@ -3,7 +3,7 @@ function login() {
           var username = document.getElementById("username").value;
           
  
-          if (username === "HEXIOS-12") {
+          if (username === "HEXIOS-2003") {
             // Lưu tên đăng nhập và mật khẩu vào Local Storage
            // localStorage.setItem("username", username);
            // localStorage.setItem("password", password);
@@ -11,7 +11,7 @@ function login() {
             document.getElementById("login-form").style.display = "none";
             document.getElementById("checkbox-container").style.display = "block";
           } else {
-            alert("خطئ المفتاح غير صحيح !!");
+            alert("   🔱 انتقل الى التلقرام  تم تحديت الحماية !!");
           }
         }
         
